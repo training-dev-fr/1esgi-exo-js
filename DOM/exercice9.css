@@ -1,0 +1,10 @@
+#content{
+     display: flex;
+     gap: 10px;
+}
+
+.object{
+    padding: 10px;
+    background-color: #D0D0D0;
+    border-radius: 8px;
+}

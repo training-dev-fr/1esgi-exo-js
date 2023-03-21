@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercice10.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="content">
+        <div id="form">
+            <input type="hidden" id="type" value="create">
+            <div class="form-group">
+                <label for="id">Id produit</label>
+                <input type="text" id="id">
+            </div>
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name">
+            </div>
+            <div class="form-group">
+                <label for="price">Prix</label>
+                <input type="number" step="0.01" id="price">
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantité</label>
+                <input type="number" id="quantity">
+            </div>
+            <div class="form-group">
+                <button id="add">Ajouter un produit</button>
+                <button id="create" disabled="disabled">Passer en mode création</button>
+            </div>
+        </div>
+        <div id="products">
+            <div id="total"></div>
+            <div id="list"></div>
+        </div>
+    </div>
+    <script src="exercice10.js" type="module"></script>
+</body>
+
+</html>
